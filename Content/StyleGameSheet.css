@@ -1,0 +1,192 @@
+﻿body{
+
+padding: 0;
+margin: 0;
+
+}
+h3,p {
+    color:red;
+}
+#gameImageList {
+
+      margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+
+}
+#gameImageList img{
+width: 100%;
+height: auto;
+
+}
+
+#gameImageList img:hover{
+
+border: 1px solid #777;
+
+
+}
+
+#gameImageList img{
+	border-radius:15px;
+}
+
+
+
+/* game list header*/
+
+ h1 {
+margin:5px 5px 0;
+padding:15px 20px .25em;
+line-height:1.2em;
+text-transform:uppercase;
+letter-spacing:.2em;
+font-family: arial, "lucida console", sans-serif;
+color: #FFFFFF;
+}
+
+ h1 a {
+text-decoration:none; /*  'underline' or 'overline' instead of 'none' */
+color: #FFFFFF; /* change color */
+font-size: 25px; /* means title font size will be 25px on all pages other than the main page */
+}
+
+
+
+
+.gamelistsection  {
+
+max-width: 1440px;
+margin: 0 auto;
+padding: 5% 8%;
+
+}
+
+.gameListGrid{
+ margin: 20px 0 0 0;
+ list-style: none;
+ display: block;
+ text-align: center;
+ width: 100%;
+
+}
+.gameListGrid:after {
+	clear: both;
+}
+.gameListGrid:after, .gameListGrid:before{
+	content: "";
+	display: table;
+}
+
+.gameListGrid li{
+
+	width: 328px;
+	height: 328px;
+	display: inline-block;
+	margin: 20px;
+}
+
+.box {
+
+width: 100%;
+height: 100%;
+position: relative;
+cursor: pointer;
+border-radius: 10px;
+
+
+}
+
+.box:hover{
+	transform: scale(1.5);
+}
+
+.gameImage-1{
+
+	background: linear-gradient(rgba(0,0,0, 0.50), rgba(0, 0, 0, 0.10)),url(overwatch1.jpg);
+
+}
+
+.gameImage-2{
+	background: linear-gradient(rgba(0,0,0, 0.50), rgba(0, 0, 0, 0.10)), url("~/horizonzerolow.jpg");
+
+}
+
+.gameImage-3{
+	background: linear-gradient(rgba(0,0,0, 0.50), rgba(0, 0, 0, 0.10)), url(~/limbolow.jpg);
+
+}
+
+.gameImage-4{
+	background: linear-gradient(rgba(0,0,0, 0.50), rgba(0, 0, 0, 0.10)),Url(codlow.png);
+
+}
+
+.gameImage-5{
+	background: linear-gradient(rgba(0,0,0, 0.50), rgba(0, 0, 0, 0.10)), url(Destinylow.jpg);
+
+}
+.gameImage-6{
+	background: linear-gradient(rgba(0,0,0, 0.50), rgba(0, 0, 0, 0.10)), url(nfslow.jpg);
+
+}
+
+.consoleImage-1{
+	background: linear-gradient(rgba(0,0,0, 0.50), rgba(0, 0, 0, 0.10)), url(console/switch.jpg);
+
+}
+.consoleImage-2{
+	background: linear-gradient(rgba(0,0,0, 0.50), rgba(0, 0, 0, 0.10)), url(console/PS4.jpg);
+
+}
+.consoleImage-3{
+	background: linear-gradient(rgba(0,0,0, 0.50), rgba(0, 0, 0, 0.10)), url(console/xboxlow.jpeg);
+
+}
+.consoleImage-4{
+	background: linear-gradient(rgba(0,0,0, 0.50), rgba(0, 0, 0, 0.10)), url(console/3dslow.jpg);
+
+}
+.consoleImage-5{
+	background: linear-gradient(rgba(0,0,0, 0.50), rgba(0, 0, 0, 0.10)), url(console/ps4Sao.jpg);
+
+}
+
+
+.pcImage-1{
+	background: linear-gradient(rgba(0,0,0, 0.50), rgba(0, 0, 0, 0.10)), url(pcPeripheral/occulus.jpg);
+
+}
+
+.pcImage-2{
+	background: linear-gradient(rgba(0,0,0, 0.50), rgba(0, 0, 0, 0.10)), url(pcPeripheral/razerlow.png);
+
+}
+.pcImage-3{
+	background: linear-gradient(rgba(0,0,0, 0.50), rgba(0, 0, 0, 0.10)), url(pcPeripheral/racingkitlow.jpg);
+
+}
+
+
+
+.fpsImage-1{
+	background: linear-gradient(rgba(0,0,0, 0.50), rgba(0, 0, 0, 0.10)), url(lasthope.png);
+
+}
+.fpsImage-2{
+	background: linear-gradient(rgba(0,0,0, 0.50), rgba(0, 0, 0, 0.10)), url(Wolfenstein.png);
+
+}
+.fpsImage-3{
+	background: linear-gradient(rgba(0,0,0, 0.50), rgba(0, 0, 0, 0.10)), url(LineOfSight.png);
+
+}
+.fpsImage-4{
+	background: linear-gradient(rgba(0,0,0, 0.50), rgba(0, 0, 0, 0.10)), url(CODWAR.png);
+
+}
+.fpsImage-5{
+	background: linear-gradient(rgba(0,0,0, 0.50), rgba(0, 0, 0, 0.10)), url(Deus.png);
+
+}

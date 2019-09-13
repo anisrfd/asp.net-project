@@ -1,0 +1,5 @@
+﻿
+Partial Class Wolfenstein
+    Inherits System.Web.UI.Page
+
+End Class

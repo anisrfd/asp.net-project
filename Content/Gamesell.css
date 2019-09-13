@@ -1,0 +1,124 @@
+﻿@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+
+
+*{
+margin:0px;
+padding:0px;
+color: cadetblue;
+
+}
+
+
+
+
+body{
+
+padding: 0;
+margin: 0;
+
+}
+
+
+
+h1{
+	padding-top:250px;
+	text-align:center;
+	color:cadetblue;
+	font-family: arial, "lucida console", sans-serif;
+
+}
+#clear{
+	clear:both;
+}
+#require{
+	float:right;
+	font-size:20px;
+	margin-right:180px;
+	color:cadetblue;
+	font-family: arial, "lucida console", sans-serif;
+}
+#price{
+	float:right;
+	font-size:24px;
+	margin-right:550px;
+	color:red;
+}
+#story{
+	padding-left:50px;
+	color:green;
+
+}
+#genre{
+	font-size:20px;
+	padding-left:50px;
+	color:green;
+
+}
+#rating{
+	font-size:24px;
+	padding-left:50px;
+	color:green;
+	padding-right:50px;
+
+}
+#star{
+	color:cadetblue;
+	display:inline-block;
+	font-size:30px;
+}
+
+#star:hover > span:before{
+
+	content:'\2605';
+	position:absolute;
+}
+
+
+#p1{
+	font-style:italic;
+ 	padding-left:50px;
+	width:600px;
+}
+
+#h3buy{
+	padding-left:50px;
+
+}
+.forbuy{
+	padding-left:400px;
+    
+
+}
+.formbuy{
+	padding-left:50px;
+}
+.submit{
+	height:40px;
+	width:221px;
+	background-color:#ffffff;
+	color:#183951;
+	border-radius:5px;
+}
+.contact{
+
+	padding-left:20px;
+	width:400px;
+	border:10px solid #373854;
+	display:inline-block;
+
+}
+
+
+#back_team{
+	float:left;
+	margin-top:20px;
+	padding: 0
+}
+#text_style{
+	height:30px;
+	border-radius:8px;
+}
+
+
+

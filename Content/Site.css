@@ -1,0 +1,84 @@
+﻿/* Move down content because we have a fixed navbar that is 50px tall */
+
+
+
+
+body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+  
+   color: cadetblue;
+}
+
+/* Wrapping element */
+/* Set some basic padding to keep content from hitting the edges */
+.body-content {
+
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Set widths on the form inputs since otherwise they're 100% wide */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 1000px) {
+    .jumbotron {
+        margin-top: 20px;
+    }
+    .body-content {
+        padding: 0;
+    }
+}
+.foot{
+width:1000PX;
+height:100%;
+margin:0 auto;
+
+}
+div.social{
+	float:left;
+	margin-top:20px;
+    width: 289px;
+}
+
+a.social{
+	margin-right:15px;
+}
+div.contact{
+	float:right;
+	margin-right:100px;
+	margin-top:20px;
+
+}
+label{
+	/*background:transparent;*/
+	color:#000000;
+}
+input.text{
+	height:20px;
+	width:250px;
+	border-radius:3px;
+	border:none;
+
+}
+textarea.message{
+    border-style: none;
+    border-color: inherit;
+    border-width: medium;
+    height:100px;
+	width:375px;
+	border-radius:3px;
+	}
+input.submit{
+	height:40px;
+	width:70px;
+	background-color:#55e617;
+	color:#183951;
+	border-radius:5px;
+}
+

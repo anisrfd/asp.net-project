@@ -1,0 +1,65 @@
+﻿<%@ Page Language="VB" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeFile="Nintendoswitch.aspx.vb" Inherits="Nintendoswitch" %>
+
+
+<asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
+
+    <html>
+        <head>
+            <link href="Content/Gamesell.css" rel="stylesheet" />
+
+        </head>
+
+
+<!-- new cls -->
+<h1>NINTENDO SWITCH</h1>
+<div class="cover1">
+<img style="width:1200px;
+	border:50px solid #373854;
+	margin-right:5px" src="gameImage/switch.jpg" />
+<div>
+<p>
+
+</p>
+</div>
+</div>
+<div>
+<div><h2 id="require"> <p></h2></div>
+<div id="clear"></div>
+<h2 id="price">Price:1700TK</h2>
+<h2 id="rating">Rating:-5.0 <div id="star"><span id="star">&#9734<span><span id="star">&#9734<span><span id="star">&#9734<span><span id="star">&#9734<span><span id="star">&#9734<span>
+</div>
+</h2>
+<h2 id="genre"> </h2>
+<h2 id="story"> overview:</h2>
+<p id="p1"> best portable console.</p>
+</div>
+<div id="clear"></div>
+<div class="forbuy">
+<div id="clear"></div>
+<div class="contact">
+	<h3 id="h3buy">Buy This</h3>
+
+  <div class="formbuy">
+  <form  action="switchbuyer.php" class="contact1" name="form" method="get">
+  <label for="email" style="color:white"> Email: </label><br>
+  <input class="text" name="email" type="text"/>
+  <br><br>
+
+  <label for="location" style="color:white"> Location: </label><br>
+  <input class="text" name="location" type="text"/>
+  <br><br>
+
+  <label for="cred_num" style="color:white">Creadit card number: </label><br>
+  <input class="text" name="cred_num" type="text"/>
+  <br><br>
+  <input class="submit" name="submit" type="submit" value="submit"/>
+
+
+	</form>
+	</div>
+</div>
+</div>
+<div id="clear"></div>
+ </html>
+
+    </asp:Content>

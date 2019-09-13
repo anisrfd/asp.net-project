@@ -1,0 +1,53 @@
+﻿<%@ Page Language="VB" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeFile="Pcperipherals.aspx.vb" Inherits="Pcperipherals" %>
+
+<asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
+    <html>
+    <header>
+    <link href="Content/StyleGameSheet.css" rel="stylesheet" />
+    </header>
+
+
+        <h1>Exclusive Pc Peripherals</h1>
+
+
+<div class= "gamelistsection">
+    <ul class= "gameListGrid">
+        <li>
+            <div class=" box pcImage-1" style="background-image:url(occulus.jpg)">
+                <a runat="server" href="~/Occulus">
+                    <h3> OCCULUS RIFT</h3>
+                    <p> 18000TK </p>
+                </a>
+            </div>
+        </li>
+
+
+        <li>
+            <div class=" box pcImage-2" style="background-image:url(razerlow.png)">
+                <a href="~/Razer">
+                    <h3> RAZER</h3>
+                    <p> 35000TK </p>
+                </a>
+            </div>
+        </li>
+
+
+        <li>
+            <div class=" box pcImage-3" style="background-image:url(racingkitlow.jpg)">
+                <a href="~/Racingkit">
+                    <h3> RACING KIT</h3>
+                    <p> 15000TK </p>
+                </a>
+            </div>
+        </li>
+
+
+    </ul>
+</div>
+
+
+
+
+
+        </html>
+   </asp:Content>

@@ -1,0 +1,64 @@
+﻿<%@ Page Language="VB" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeFile="FPS.aspx.vb" Inherits="FPS" %>
+
+<asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
+
+    <html>
+    <head>
+    <link href="Content/StyleGameSheet.css" rel="stylesheet" />
+    </head>
+<h1>OUR FIRST PERSON SHOOTING GAMES </h1>
+<body>
+<div class= "gamelistsection">
+    <ul class= "gameListGrid">
+        <li>
+            <div class=" box fpsImage-1" style="background-image:url(lasthope.jpg)">
+                <a runat="server" href="~/TheLastHope">
+                    <h3> The Last Hope</h3>
+                    <p>   140TK </p>
+                </a>
+            </div>
+        </li>
+        <li>
+            <div class=" box fpsImage-2" style="background-image:url(Wolfenstein.jpg)">
+                <a runat="server" href="~/Wolfenstein">
+                    <h3> Wolfenstein || </h3>
+                    <p> 100TK </p>
+                </a>
+            </div>
+        </li>
+
+        <li>
+            <div class=" box fpsImage-3" style="background-image:url(LineOfSight.jpg)">
+                <a runat="server" href="~/LineOfSight">
+                    <h3> Line Of Sight</h3>
+                    <p> 210TK </p>
+                </a>
+            </div>
+        </li>
+
+
+        <li>
+            <div class=" box fpsImage-4" style="background-image:url(CODWAR.jpg)">
+                <a  runat="server" href="~/CODWAR">
+                    <h3> COD Infinty Warfare</h3>
+                    <p> 160TK </p>
+                </a>
+            </div>
+        </li>
+
+        <li>
+            <div class=" box fpsImage-5" style="background-image:url(Deus.jpg)">
+                <a runat="server" href="~/Deus">
+                    <h3> Deus Ex (Man Kind Divided)</h3>
+                    <p> 200TK </p>
+                </a>
+            </div>
+        </li>
+
+
+
+    </ul>
+</div>
+    </body>
+        </html>
+</asp:Content>

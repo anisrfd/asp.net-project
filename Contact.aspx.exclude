@@ -1,0 +1,40 @@
+﻿<%@ Page Title="Contact" Language="VB" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeFile="Contact.aspx.vb" Inherits="Contact" %>
+
+<asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
+    <footer>
+			<a name="foo">
+    <div class="foot">
+
+    <div class="social">
+    <h3>Stay connected</h3>
+    <a class="social youtube" href="https://www.youtube.com"> <img src="youtube1.jpg"/></a>
+
+    <a class="social facebook" href="https://www.facebook.com"><img src="facebook1.jpg"/></a>
+
+    <a class="social twitter" href="https://www.twitter.com"><img src="twitter1.jpg"/></a>
+    </div>
+    <div class="contact">
+    <h3>Contact Us</h3>
+
+    <form action="process.php" class="contact" method="get">
+    <label for="name" style="color:white"> Name </label><br>
+    <input class="text" name="name" type="text"/>
+    <br><br>
+
+    <label for="email" style="color:white"> Email </label><br>
+    <input class="text" name="email" type="text"/>
+    <br><br>
+
+    <label for="message" style="color:white"> Message </label><br>
+    <textarea class="message" name="message"></textarea>
+    <br><br>
+    <input class="submit" name="submit" type="submit" value="submit"/>
+
+    </form>
+    </div>
+
+    </div>
+
+    </footer>
+
+</asp:Content>

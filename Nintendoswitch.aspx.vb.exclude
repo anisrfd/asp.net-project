@@ -1,0 +1,5 @@
+﻿
+Partial Class Nintendoswitch
+    Inherits System.Web.UI.Page
+
+End Class

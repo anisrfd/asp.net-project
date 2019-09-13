@@ -1,0 +1,5 @@
+﻿
+Partial Class Deus
+    Inherits System.Web.UI.Page
+
+End Class

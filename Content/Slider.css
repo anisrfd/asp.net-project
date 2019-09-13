@@ -1,0 +1,164 @@
+﻿@keyframes Slider{
+
+	0%{
+		left:0;
+	}
+	20%{
+		left:0;
+	}
+	25%{
+		left:-100%;
+	}
+	45%{
+		left:-100%;
+	}
+	50%{
+		left:-200%;
+	}
+	70%{
+		left:-200%;
+	}
+
+	75%{
+		left:-300%
+	}
+	95%{
+		left:-300%;
+	}
+	100%{
+		left:-400%
+	}
+
+}
+#Slider{
+    margin:0 auto;
+	overflow:hidden;
+
+
+}
+#Slider figure img{
+
+    height:50%;
+	width:20%;
+	float:left;
+
+}
+#Slider figure{
+	margin:10px;
+	position:relative;
+	width:500%;
+	left:0;
+	font-size:0;
+	animation:20s slider infinite;
+
+}
+
+.slider3{
+	overflow: hidden;
+	height: 350px;
+	margin-left:320px;
+
+}
+
+.slider3 figure div{
+	width: 20%;
+	float: left;
+}
+
+.slider3 figure img{
+	width: 70%;
+	float: center;
+}
+
+.slider3 figure{
+
+	position: relative;
+	width: 500%;
+	margin: 0;
+	left: 0;
+	animation: 20s slidy infinite;
+}
+
+@keyframes slidy{
+	0%{
+		left: 0%
+	}
+
+	10%{
+		left: 0%;
+	}
+
+	12%{
+		left: -100%;
+	}
+
+	22%{
+		left: -100%;
+	}
+
+	24%{
+		left: -200%;
+	}
+
+	34%{
+		left: -200%;
+	}
+
+	36%{
+		left: -300%;
+	}
+
+	46%{
+		left: -300%;
+	}
+
+	48%{
+		left: -400%;
+	}
+
+	58%{
+		left: -400%;
+	}
+
+	60%{
+		left: -300%;
+	}
+
+	70%{
+		left: -300%;
+	}
+
+	72%{
+		left: -200%;
+	}
+
+	82%{
+		left: -200%;
+	}
+
+	84%{
+		left: -100%;
+	}
+
+	94%{
+		left: -100%;
+	}
+
+	96%{
+		left: 0%;
+	}
+
+	100%{
+		left: 0%;
+	}
+}
+#sidepic{
+	float:right;
+	margin-left:10px;
+
+}
+
+#clear {
+    clear: both;
+}
+

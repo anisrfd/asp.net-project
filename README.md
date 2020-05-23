@@ -1,4 +1,4 @@
-# asp.net-project
+# Online Gaming Shop(asp.net-project)
 
 Preface:
 	It’s a software with the platform Visual Studio along with c# language.
